@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap');
+    font-family: 'Source Code Pro', monospace;
+}
+
+.content {
+    text-align: center;
+}
+
+.title {
+    margin: 40px
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons button {
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    background-color: #4C00D5;
+    max-width: 200px;
+    width: 100%;
+}
+
+.buttons a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.buttons button:hover {
+    transform: scale(1.04);
+    transition: 0.5s;
+    background-color: #6200EE;
+}
